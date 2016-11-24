@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Анкета</title>
+</head>
+<body>
+    <h2>Пожалуйста, заполните следующие поля.</h2>
+
+     <form action="#" method="post">
+         <fieldset>
+            <legend>Контакты</legend> 
+            <div>
+                <label for="textField">Имя: </label>
+                <input id="textField" type="text" required maxlength="2">
+            </div>
+            <div>
+                <label for="textField">Фамилия: </label>
+                <input id="textField" type="text" required maxlength="2">
+            </div>
+            <div>
+                <label for="emailField">E-mail: </label>
+                <input id="emailField" type="email">
+            </div>
+            <div>
+                <label for="phoneField">Телефон: </label>
+                <input id="phoneField" type="tel" pattern="2[0-9]{3}-[0-9]{3}" placeholder="+7(xxx)xxxxxxx">
+            </div>
+
+         </fieldset>
+
+         <fieldset>
+            <legend>Что делает ваш бизнес?</legend>    
+            <div>
+                  <select id="business">
+						<option value="" selected>Пожалуйста, выберите...</option>
+						<option>Автобизнес</option>
+						<option>Бытовые услуги</option>
+						<option>Зообизнес</option>
+						<option>Информационные технологии и электроника</option>
+						<option>Красота и здоровье</option>
+						<option>Мода и стиль</option>
+						<option>Образование и искусство</option>
+						<option>Обслуживание бизнеса</option>
+                        <option>Продукты и напитки</option>
+                        <option>Сельское, лесное хозяйство и рыболовство</option>
+                        <option>СМИ, полиграфия и издательство</option>
+                        <option>Спорт и развлечения</option>
+                        <option>Строительство и ремонт</option>
+                        <option>Товаря для дома</option>
+                        <option>Товары и услуги для детей</option>
+                        <option>Туристический и гостиничный бизнес</option>
+                        <option>Общепит и ресторанный бизнес</option>
+                        <option>Финансовые услуги</option>
+                        <option>Хобби и увлечения</option>
+	            </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+           <legend>Каковы задачи вашего сайта?</legend>
+                <p>
+                    <label><input name="message[]" type="checkbox">Помочь компании в поддержке старых, а также установлению новых связей на рынке.</label>
+                </p>
+                <p>
+                    <label><input name="message[]" type="checkbox">Стать инструментом распространения информации о компании, о ее деятельности.</label>
+                </p>
+                <p>
+                    <label><input name="message[]" type="checkbox">Осуществлять удаленную демонстрацию товара для его продвижения.</label>
+                </p>
+                <p>
+                    <label><input name="message[]" type="checkbox">Увеличить объем продаж, найти новых клиентов вашей компании.</label>
+                </p>
+                <p>
+                    <label><input name="message[]" type="checkbox">Осуществлять информационную и сервисную поддержку клиентов и партнеров.</label>
+                </p>
+                <p>
+                    <label><input name="message[]" type="checkbox">Обеспечить круглосуточное предоставление услуг клиентам или партнерам.</label>
+                </p>
+                <p>
+                    <label><input name="message[]" type="checkbox">Стать средством обмена информацией между представительствами и торговыми точками компании.</label>
+                </p>
+                 <p>
+                    <label><input name="message[]" type="checkbox">Стать помощником в обучении, повышении квалификации сотрудников компании, ее партнеров.</label>
+                </p>
+                <p>
+                    <label><input name="message[]" type="checkbox">Реализовать оперативную обратную связь с клиентами в любой точке мира.</label>
+                </p>
+               <p>
+                    <label><input name="message[]" type="checkbox">Взаимодействовать со средствами массовой информации.</label>
+                </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Опишите вашу целевую аудиторию</legend>    
+            <div>
+                <label for="textareaField"></label>
+                <textarea id="textareaField"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>У вас уже есть сайт?</legend>
+                <label><input type="radio">Да</label>
+                <label><input type="radio">Нет</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Чем отличается ваш бизнес?</legend>
+            <div>
+                <textarea id="remarkable"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Какой функционал должен бытьна вашем сайте?</legend>    
+            <div>
+                 <p>
+                    <label><input name="feature[]" type="checkbox">Корзина</label>
+                </p>
+                <p>
+                    <label><input name="feature[]" type="checkbox">Реализация социальных медиа</label>
+                </p>
+                <p>
+                    <label><input name="feature[]" type="checkbox">Сбор электронной почты и возможности маркетинга электронной почты</label>
+                </p>
+                <p>
+                    <label><input name="feature[]" type="checkbox">Блог или лента новостей</label>
+                </p>
+                <p>
+                    <label><input name="feature[]" type="checkbox">Фотогалереи</label>
+                </p>
+                <p>
+                    <label><input name="feature[]" type="checkbox">Видео</label>
+                </p>
+                <p>
+                    <label><input name="feature[]" type="checkbox">Слайдер баннер</label>
+                </p>
+                <p>
+                    <label><input name="feature[]" type="checkbox">Мобильный сайта</label>
+                </p>
+                <p>
+                    <label><input name="feature[]" type="checkbox">Способность оставлять комментарии</label>
+                </p>
+               <p>
+                    <label><input name="feature[]" type="checkbox">Форма техподдержки</label>
+                </p>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Укажите url адреса сайтов ваших конкурентов</legend>
+            <div>
+                <textarea id="competitors"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Укажите границы вашего бюджета (руб)</legend>
+        <div>
+            <label for="numberField">От</label>
+            <input id="numberField" type="number" value="15000" min="0" max="10000000" step="1000">
+            <label for="numberField">До</label>
+            <input id="numberField" type="number" value="15000" min="0" max="99999999" step="1000">
+      
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Когда должен быть готов сайт?</legend>
+            <div>
+                <label for="dateField">Выберите дату:</label>
+                <input id="dateField" type="date" value="2017-01-01">
+            </div>
+        </fieldset>
+
+        <input type="button" value="Отправить">
+
+     </form>
+</body>
+</html>
