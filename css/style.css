@@ -78,3 +78,9 @@ footer {
     text-align: center;
     font-style: oblique;
 }
+
+.contacts {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 15 px;
+}
