@@ -1,28 +1,22 @@
+@import url(grid.css);
+
 body {
     background: url(../image/bg.png) no-repeat;
-    background-color: #1C4E66;
     background-attachment: fixed; 
-    color: #DAD2DD;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding: 20px;
+    /*margin-left: 20%;
+    margin-right: 20%;*/
 }
 
-header {
-
-}
-
-footer {
-
-}
-
-.title, h1, figure {
+.title, figure, .home_title, h1, nav ul li a:hover {
     color: #012C41; 
 }
 
-h1 {
-    padding-top: 10px;
+.home_title {
+    /*padding-top: 10px;*/
     text-align: right;
-}
+    font-size: 600%;
+ }
 
 .title {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -30,10 +24,15 @@ h1 {
     margin-top: 15%;
 }
 
+.info, figure, .search {
+    border-radius: 3px 3px 3px 3px;
+}
+
 .info, figure {
     border-radius: 3px 3px 3px 3px;
     padding: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 nav ul, .info, footer {
@@ -44,36 +43,35 @@ nav ul li {
     display: inline-block; 
     list-style-type: none;
     margin: 0;
-    padding: 10px 10px;
 }
-    
-nav ul li a {
-    text-decoration: none;
+
+nav ul li, nav ul li a
+{
     padding-top:10px;
     padding-bottom:10px;
     padding-right:5px;
     padding-left:5px;
     
 }
-    nav ul li a:hover {
-        color: #012C41;
+    
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
         background-color:  #D5EEFA;
         text-decoration: none;
     }
 
-
-a, nav ul li a {
+.info, a, nav ul li a {
 color: #D5EEFA;
-}
-
-figure {
-    background-color: #BED6E1;
 }
 
 a {
 color: #D5EEFA;
 text-align: center;
 }
+
 footer {
     text-align: center;
     font-style: oblique;
@@ -84,3 +82,4 @@ footer {
     margin-top: 10px;
     padding-bottom: 15 px;
 }
+
