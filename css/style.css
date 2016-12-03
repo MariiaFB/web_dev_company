@@ -30,7 +30,7 @@ body {
 
 .info, figure {
     border-radius: 3px 3px 3px 3px;
-    padding: 10px;
+    /*padding: 10px;*/
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -47,11 +47,11 @@ nav ul li {
 
 nav ul li, nav ul li a
 {
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-right:5px;
-    padding-left:5px;
-    
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-right:0.2em;
+    padding-left:0.2em;  
+    text-align: center; 
 }
     
 nav ul li a {
@@ -73,13 +73,47 @@ text-align: center;
 }
 
 footer {
+ 
+    margin-bottom: 90%;
     text-align: center;
     font-style: oblique;
+    
 }
 
 .contacts {
     margin-bottom: 10px;
     margin-top: 10px;
     padding-bottom: 15 px;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.video iframe,  
+.video object,  
+.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+img {
+	max-width: 80%;
+	height: auto;
+}
+
+input {
+    min-width: 20%;
+}
+
+textarea {
+    max-width: 90%;
+    margin: 5%;
 }
 
